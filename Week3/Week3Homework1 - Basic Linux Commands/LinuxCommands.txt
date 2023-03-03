@@ -33,3 +33,8 @@ Audi
 John
 Emily
 Tom
+
+
+/* 
+I used an online terminal this time because I don't have much space on my already slow and frequently crashing laptop and I want to move most of my files that I don't need for the academy( Games, Movies, etc.. ) on an external SSD before downloading and using a local virtual machine. I've already purchased the SSD and it should arrive sometime next week. 
+*/
