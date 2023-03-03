@@ -1,0 +1,35 @@
+~$ hey
+bash: hey: command not found
+~$ echo -e "John\nEmily\nTom" > friends.txt
+~$ cat friends.txt
+John
+Emily
+Tom
+~$ mv friends.txt bestfriends.txt
+~$ cp bestfriends.txt sysadmins.txt
+~$ ls b*.txt
+bestfriends.txt
+~$ wc -c sysadmins.txt
+15 sysadmins.txt
+~$ echo -e "Mercedes\nHonda\nBMW\nNissan\nAudi" > cars.txt
+~$ cat cars.txt
+Mercedes
+Honda
+BMW
+Nissan
+Audi
+~$ wc -c cars.txt
+31 cars.txt
+~$ cp cars.txt /tmp
+~$ ls /tmp/*.txt
+/tmp/cars.txt
+~$ mv /tmp/cars.txt /tmp/vehicles.txt
+~$ ls /tmp/*.txt
+/tmp/vehicles.txt
+~$ less /etc/passwd
+
+[1]+  Stopped                 less /etc/passwd
+~$ cat sysadmins.txt
+John
+Emily
+Tom
